@@ -4,7 +4,10 @@ import Home from './Home'
 function App() {
   return (
     <div className="App">
-      <Home></Home>
+      <Navbar />
+      <div className="content">
+        <Home />
+      </div>
     </div>
   );
 }
