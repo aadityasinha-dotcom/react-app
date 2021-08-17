@@ -18,6 +18,7 @@ body {
 
 .navbar h1 {
   color: #f1356d;
+  margin-left: auto;
 }
 
 .navbar .links {
@@ -25,7 +26,7 @@ body {
 }
 
 .navbar a {
-  margin-left: 16px;
+  margin-right: 20px;
   text-decoration: none;
   padding: 6px;
 }
