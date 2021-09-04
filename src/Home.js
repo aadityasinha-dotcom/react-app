@@ -9,7 +9,7 @@ const Home = () => {
         { title: 'Web dev top tips', body: 'lorem ipsum', author: 'mario', id: 3 }
     ]);
 
-    cont handleDelete = (id) => {
+    const handleDelete = (id) => {
         cont newBlogs = blogs.filter(blog => blog.id !== id);
         setBlogs(newBlogs);
     }
