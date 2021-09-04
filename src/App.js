@@ -3,11 +3,10 @@ import Home from './Home'
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <div className="content">
-        <Home />
-      </div>
+    <div>
+      <label class="label" for="name">Enter name:</label>
+      <input id="name" type="text" />
+      <button style="background-color: blue; color: white;"></button>
     </div>
   );
 }
