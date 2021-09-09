@@ -6,6 +6,7 @@ function App() {
     <div>
       <label class="label" for="name">Enter name:</label>
       <input id="name" type="text" />
+      <div style={{backgroundColor: 'red'}}></div>
     </div>
   );
 }
