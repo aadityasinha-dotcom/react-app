@@ -6,7 +6,7 @@ function getButtonText(){
 }
 
 function App() {
-  const buttonText = 123456;
+  const buttonText = ['HI','There'];
   return (
     <div>
       <label className="label" for="name">Enter name:</label>
