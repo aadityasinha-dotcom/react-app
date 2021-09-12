@@ -11,6 +11,11 @@ function App() {
         <a href="/" className="Avatar">
           <img alt="avatar" />
         </a>
+        <div className="content">
+          <a href="/" className="Author">
+            
+          </a>
+        </div>
       </div>
     </div>
   );
