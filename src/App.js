@@ -18,7 +18,7 @@ function App() {
           <div className="metadata">
             <span className="date">Today at 6:00PM</span>
           </div>
-          <div className="text"
+          <div className="text">Nice blog post!</div>
         </div>
       </div>
     </div>
