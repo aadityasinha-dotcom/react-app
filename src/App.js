@@ -6,12 +6,8 @@ function App() {
   const buttonText = {text: "Click"};
   const style = {backgroundColor: 'blue', color:'white'};
   return (
-    <div>
-      <label className="label" for="name">Enter name:-</label>
-      <input id="name" type="text" />
-      <button style={style}>
-        {buttonText.text}
-      </button>
+    <div className="ui container comments">
+      
     </div>
   );
 }
