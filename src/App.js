@@ -9,6 +9,7 @@ function App() {
     <div className="ui container comments">
       <div className="comment">
         <a href="/" className="Avatar">
+          <img alt="avatar" src="asdf" />
           <img alt="avatar" />
         </a>
         <div className="content">
