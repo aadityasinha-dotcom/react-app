@@ -2,8 +2,7 @@ import React from 'react';
 
 const CommentDetail = () => {
     return (
-        <div className="ui container comments">
-      <div className="comment">
+    <div className="comment">
         <a href="/" className="Avatar">
           <img alt="avatar" src={faker.image.avatar()} />
           <img alt="avatar" />
@@ -17,6 +16,6 @@ const CommentDetail = () => {
           </div>
           <div className="text">Nice blog post!</div>
         </div>
-      </div>
-    )
+    </div>
+    );
 }
