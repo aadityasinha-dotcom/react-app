@@ -8,7 +8,7 @@ function App() {
   const style = {backgroundColor: 'blue', color:'white'};
   return (
     <div className="ui container comments">
-      
+      <CommentDetail />
     </div>
   );
 }
