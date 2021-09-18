@@ -1,10 +1,13 @@
+import React from 'react';
 import CommentDetail from './CommentDetail';
 import faker from 'faker';
+import aprrovalCard from './aprrovalCard';
 
 
 function App() {
   return (
     <div className="ui container comments">
+      <aprrovalCard />
       <CommentDetail 
         author='Adi' 
         timeAgo="Today at 4:45PM" 
