@@ -1,5 +1,4 @@
-import Navbar from './Navbar'
-import Home from './Home'
+
 import CommentDetail from './CommentDetail';
 import faker from 'faker';
 
