@@ -1,4 +1,3 @@
-
 import CommentDetail from './CommentDetail';
 import faker from 'faker';
 
