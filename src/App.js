@@ -1,12 +1,13 @@
 import React from 'react';
 import CommentDetail from './CommentDetail';
 import faker from 'faker';
-import approvalCard from './approvalCard';
+import aprrovalCard from './approvalCard';
 
 
 function App() {
   return (
     <div className="ui container comments">
+      <approvalCard>Are you sure you want to do this?</approvalCard>
       <approvalCard>
         <CommentDetail 
           author='Adi' 
