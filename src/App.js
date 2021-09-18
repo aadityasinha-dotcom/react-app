@@ -7,13 +7,14 @@ import aprrovalCard from './aprrovalCard';
 function App() {
   return (
     <div className="ui container comments">
-      <aprrovalCard />
-      <CommentDetail 
-        author='Adi' 
-        timeAgo="Today at 4:45PM" 
-        blog="Hello" 
-        avatar={faker.image.avatar()}
-      />
+      <aprrovalCard>
+        <CommentDetail 
+          author='Adi' 
+          timeAgo="Today at 4:45PM" 
+          blog="Hello" 
+          avatar={faker.image.avatar()}
+        />
+      </aprrovalCard>
       <CommentDetail 
         author='Aryan' 
         timeAgo="Today at 2:00AM" 
