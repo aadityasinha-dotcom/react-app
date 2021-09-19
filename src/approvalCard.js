@@ -16,4 +16,4 @@ const approvalCard = ( props ) => {
 
 };
 
-export default aprrovalCard;
+export default approvalCard;
