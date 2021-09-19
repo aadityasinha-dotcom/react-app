@@ -1,6 +1,7 @@
 import React from 'react';
 import CommentDetail from './CommentDetail';
 import approvalCard from './approvalCard';
+import faker from 'faker';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
           author='Adi' 
           timeAgo="Today at 4:45PM" 
           blog="Hello"
+          avatar = {faker.image.avatar()}
         />
       </approvalCard>
       <approvalCard>
@@ -19,6 +21,7 @@ function App() {
           author='Aryan' 
           timeAgo="Today at 2:00AM" 
           blog="kya hai?"
+          avatar = {faker.image.avatar()}
         />
       </approvalCard>
       <approvalCard>
@@ -26,6 +29,7 @@ function App() {
           author='Raju' 
           timeAgo="Yesterday at 5:00PM" 
           blog="kuch nahi :-("
+          avatar = {faker.image.avatar()}
         />
       </approvalCard>
     </div>
