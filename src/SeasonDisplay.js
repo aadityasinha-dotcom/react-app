@@ -6,7 +6,7 @@ const SeasonDisplay = () =>  {
         (err) => console.log(err)
     );
 
-    return <div>Hi there!</div>
+    return <div>Latitude: </div>
 }
 
 export default SeasonDisplay;
