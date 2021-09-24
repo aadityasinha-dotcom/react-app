@@ -1,6 +1,6 @@
 import React from 'react';
 
-const approvalCard = ( props ) => {
+const ApprovalCard = ( props ) => {
 
     return (
         <div className="ui card">
@@ -16,4 +16,4 @@ const approvalCard = ( props ) => {
 
 };
 
-export default approvalCard;
+export default ApprovalCard;
