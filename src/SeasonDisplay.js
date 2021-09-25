@@ -6,7 +6,13 @@ const SeasonDisplay = () =>  {
         (err) => console.log(err)
     );
 
-    return <div>Latitude: </div>
+    return <div>Latitude: </div>;
+};
+
+class App extends React.Component {
+    render() {
+        return <div>Latitude: </div>;
+    }
 }
 
 export default SeasonDisplay;
