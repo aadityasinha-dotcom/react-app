@@ -5,7 +5,6 @@ class App extends React.Component {
         super(props);
     }
     
-    
     render() {
         window.navigator.geolocation.getCurrentPosition(
             (position) => console.log(position),
