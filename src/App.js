@@ -2,13 +2,11 @@ import React from 'react';
 import CommentDetail from './CommentDetail';
 import ApprovalCard from './ApprovalCard';
 import faker from 'faker';
-import SeasonDisplay from './SeasonDisplay';
 
 
 function App() {
   return (
     <div className="ui container comments">
-      <SeasonDisplay />
       <ApprovalCard>Are you sure you want to do this?</ApprovalCard>
       <ApprovalCard>
         <CommentDetail 
