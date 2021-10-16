@@ -3,7 +3,6 @@ import CommentDetail from './CommentDetail';
 import ApprovalCard from './ApprovalCard';
 import faker from 'faker';
 
-
 function App() {
   return (
     <div className="ui container comments">
