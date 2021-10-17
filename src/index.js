@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import SeasonDisplay from './SeasonDisplay';
 
 if (module.hot) {
   module.hot.accept();
