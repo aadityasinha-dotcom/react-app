@@ -34,7 +34,8 @@ class App extends React.Component {
       <div className="border red">
         {this.renderContent()}
       </div>
-    )
+    );
+  }
 }
 
 ReactDOM.render(<App />, document.querySelector("#root"));
