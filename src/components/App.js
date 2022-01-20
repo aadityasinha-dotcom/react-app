@@ -13,8 +13,10 @@ const App = () => {
     return (
     <div>
         <BrowserRouter>
+            <div>
             <Route path="/" exact component={PageOne} />
             <Route path="/PageTwo" component={PageTwo} />
+            </div>
         </BrowserRouter>
     </div>);
 };
