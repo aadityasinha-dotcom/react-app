@@ -10,7 +10,13 @@ const PageTwo = () => {
 };
 
 const App = () => {
-    return <div>App</div>;
+    return (
+    <div>
+        <BrowserRouter>
+            <Route path="/" exact component={PageOne} />
+            <Route path="/PageTwo" component={PageTwo} />
+        </BrowserRouter>
+    </div>);
 };
 
 export default App;
