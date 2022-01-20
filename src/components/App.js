@@ -7,7 +7,8 @@ import main from '../contents/main';
 
 const App = () => {
   return (
-    <div>
+    <div className="ui container">
+      <Header />
       <BrowserRouter>
         <div>
           <Route path="/" exact component={main} />
