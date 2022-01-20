@@ -1,9 +1,10 @@
 import React from 'react';
+import image from '../components/450.png';
 
 const main = () => {
     return (
-      <div>
-        Main
+      <div className="ui segment">
+        <img class="ui centered medium image" src={image} alt=""/>
       </div>
     );
 };
