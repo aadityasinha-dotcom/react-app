@@ -5,10 +5,11 @@ import bio from '../contents/bio';
 import contacts from '../contents/contacts';
 import main from '../contents/main';
 import Header from './Header';
+import './App.css';
 
 const App = () => {
   return (
-    <div className="ui container">
+    <div>
       <BrowserRouter>
         <div>
           <Header />
