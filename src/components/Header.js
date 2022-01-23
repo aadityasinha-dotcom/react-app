@@ -8,16 +8,16 @@ const Header = () => {
             <ul className="navbar-nav"></ul>
             <div class="ui vertical menu">
                 <div class="item">
-                    <Link to="/" class="header">Products</Link>
+                    <Link to="/" class="header">HomePage</Link>
                 </div>
                 <div class="item">
-                    <Link to="/artwork" class="header">CMS Solutions</Link>
+                    <Link to="/artwork" class="header">Artwork</Link>
                 </div>
                 <div class="item">
-                    <Link to="/bio" class="header">Hosting</Link>
+                    <Link to="/bio" class="header">Bio</Link>
                 </div>
                 <div class="item">
-                    <Link to="/contacts" class="header">Support</Link>
+                    <Link to="/contacts" class="header">Contacts</Link>
                 </div>
             </div>
         </nav>
