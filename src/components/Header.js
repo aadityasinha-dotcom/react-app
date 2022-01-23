@@ -3,26 +3,21 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
-        <div className="ui secondary pointing menu">
-            <Link to="/" className="item">
-                HomePage
-            </Link>
-            <div className="right menu">
-                <Link to="/main/bio" className="item">
-                    Bio
-                </Link>
+        <div class="ui vertical menu">
+            <div class="item">
+                <Link to="/" class="header">Products</Link>
             </div>
-            <div className="right menu">
-                <Link to="/main/artwork" className="item">
-                    Artwork
-                </Link>
+            <div class="item">
+                <Link to="/artwork" class="header">CMS Solutions</Link>
             </div>
-            <div className="right menu">
-                <Link to="/main/contacts" className="item">
-                    Contacts
-                </Link>
+            <div class="item">
+                <Link to="/bio" class="header">Hosting</Link>
+            </div>
+            <div class="item">
+                <Link to="/contacts" class="header">Support</Link>
             </div>
         </div>
+        
     );
 };
 
