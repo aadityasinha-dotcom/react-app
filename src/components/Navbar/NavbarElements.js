@@ -3,7 +3,7 @@ import { Link as LinkR } from 'react-router-dom';
 import { Link as LinkS } from 'react-scroll';
 
 export const Nav = styled.nav`
-    background: #000;
+    background: ${({ scrollNav }) => (scrollNav ? 'black' : 'transparent')};
     height: 80px;
     margin-top: -80px;
     display: flex;
@@ -44,7 +44,7 @@ export const NavLogo = styled(LinkR)`
 export const MobileIcon = styled.div`
 
     @media screen and (max-width: 768px) {
-        diplay: block;
+        display: block;
         position: absolute;
         top: 0;
         right: 0;
