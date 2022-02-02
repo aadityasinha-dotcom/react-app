@@ -6,6 +6,8 @@ NavMenu, NavItem, NavLinks,
 NavBtn, NavBtnLink } from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
+    const
+
   return (
     <>
         <Nav>
