@@ -11,10 +11,10 @@ const InfoSection = (lightBg, id, imgStart, topLine, lightText, headline, darkTe
     <>
         <InfoContainer lightBg={true} id='about'>
             <InfoWrapper>
-                <InfoRow imgStart={imgStart}>
+                <InfoRow imgStart={false}>
                     <Column1>
                         <TextWrapper>
-                            <TopLine>Yoooooooo</TopLine>
+                            <TopLine>{topLine}</TopLine>
                             <Heading lightText={true}>hello</Heading>
                             <Subtitle darkText={false}>hello and welcome to my new website</Subtitle>
                             <BtnWrap>

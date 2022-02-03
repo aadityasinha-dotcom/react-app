@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { HeroBlog, HeroContainer, 
 VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward,
 ArrowRight } from './HeroElements';
-import Video from '../../videos/video.mp4';
+import Video from '../../videos/video2.mp4';
 import {Button} from '../ButtonElements';
 const HeroSection = () => {
     const [hover, setHover] = useState(false)
@@ -15,7 +15,7 @@ const HeroSection = () => {
     <div>
         <HeroContainer>
             <HeroBlog>
-                <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+                <VideoBg autoPlay loop muted src={Video} type='video2/mp4' />
             </HeroBlog>
             <HeroContent>
                 <HeroH1>Welcome to my new website</HeroH1>

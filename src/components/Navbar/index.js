@@ -4,6 +4,7 @@ import { Nav, NavbarContainer,
 NavLogo, MobileIcon, 
 NavMenu, NavItem, NavLinks, 
 NavBtn, NavBtnLink } from './NavbarElements';
+import {animateScroll as scroll} from 'react-scroll';
 
 const Navbar = ({ toggle }) => {
     const [scrollNav, setScrollNav] = useState(false)
@@ -21,11 +22,15 @@ const Navbar = ({ toggle }) => {
     }, [])
     
 
+    const toggleHome = () => {
+        scroll.scrollToTop();
+    }
+
   return (
     <>
         <Nav scrollNav={scrollNav}>
             <NavbarContainer>
-                <NavLogo to="/">Lmao</NavLogo>
+                <NavLogo to="/" onClick={toggleHome}>Lmao</NavLogo>
                 <MobileIcon onClick={toggle}>
                     <FaBars />
                 </MobileIcon>

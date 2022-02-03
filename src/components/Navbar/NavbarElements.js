@@ -43,6 +43,8 @@ export const NavLogo = styled(LinkR)`
 
 export const MobileIcon = styled.div`
 
+    display: none;
+
     @media screen and (max-width: 768px) {
         display: block;
         position: absolute;
