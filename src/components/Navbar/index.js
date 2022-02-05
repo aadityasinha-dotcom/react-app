@@ -25,7 +25,7 @@ const Navbar = ({ toggle }) => {
     const toggleHome = () => {
         scroll.scrollToTop();
     }
-
+// bla bla bla
   return (
     <>
         <Nav scrollNav={scrollNav}>
